@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <links id="100500" text="http://www.eveonline.com" />
+    <links id="100501" text="http://www.wow.com" />
+    <links id="100502" text="http://www.google.com" />
+</dataset>
+
+<!--датасет. использует DB Unit для создания данных в тестах-->
+<!--links - название таблицы. дальше - название столбцов в таблиец (id, text)-->

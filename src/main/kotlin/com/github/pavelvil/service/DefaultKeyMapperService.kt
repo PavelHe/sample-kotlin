@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 
 @Service
-class DefaultKeyMapperService : KeyMapperService {
+open class DefaultKeyMapperService : KeyMapperService {
 
     @Autowired
     lateinit var converter: KeyConverterService

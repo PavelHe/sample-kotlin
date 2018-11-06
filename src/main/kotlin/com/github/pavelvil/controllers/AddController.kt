@@ -9,7 +9,7 @@ import org.springframework.ui.Model
 import org.springframework.web.bind.annotation.*
 
 @Controller
-class AddController {
+open class AddController {
 
     @Value("\${smlr.prefix}")
     private lateinit var prefix: String

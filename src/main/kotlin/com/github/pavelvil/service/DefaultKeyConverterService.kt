@@ -3,7 +3,7 @@ package com.github.pavelvil.service
 import org.springframework.stereotype.Service
 
 @Service
-class DefaultKeyConverterService : KeyConverterService {
+open class DefaultKeyConverterService : KeyConverterService {
 
     val chars = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890-_".toCharArray() // нужно для генерации id
     val charToLong = (0..chars.size - 1)
